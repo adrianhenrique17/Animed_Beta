@@ -1,9 +1,0 @@
-{
-  "extends": "expo/tsconfig.base",
-  "compilerOptions": {
-    "baseUrl": ".", // Indica ao TypeScript para resolver caminhos a partir da raiz do projeto
-    "paths": {
-      "@api/*": ["../api-animed/*"] // Mapeia o atalho @api para a sua pasta
-    }
-  }
-}
