@@ -1,0 +1,15 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".", 
+    "paths": {
+      "@api/*": ["../api-animed/*"]
+    }
+  },
+  "include": [
+    "src",
+    "src/types",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
